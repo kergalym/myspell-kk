@@ -3,11 +3,11 @@ SET UTF-8
 TRY әіңғүұқөһоаитенрсвйлпкьыяудмзшбчгщюжцёхфэъАВСМКГПТЕИЛФНДОЭРЗЮЯБХЖШЦУЧЬЫЪЩЙЁӘІҢҒҮҰҚӨҺ
 
 AF 3
-AF ABbCcDdEeFfGHIJKLmNOPR # 1 - Usual noun: plural, posessives, cases
-AF GHIJKLm # 2 - Plural forms and posessives of noun plus cases
+AF ABbCcDdEeFfGHIJKLmNOPRQ # 1 - Usual noun: plural, posessives, cases
+AF GHIJKLmQ # 2 - Plural forms and posessives of noun plus cases
 AF GIJKLM # 3 - Plural forms and posessives of noun plus cases for 1st sing
 
-AM 19
+AM 20
 AM +pl. # 1
 AM +1st sing. # 2
 AM +pl. +1st sing. # 3
@@ -27,6 +27,7 @@ AM +Loc. +Noun # 16
 AM +Abl. # 17
 AM +Inst. # 18
 AM Merge(+1st sing.+Dat.) # 19
+AM +Possesive 2nd form #20
 
 # Plural rules for nouns
 SFX A Y 8
@@ -228,3 +229,10 @@ SFX R 0 сінде [әеёиөүіюя]
 SFX R 0 сында [аоұыэ]
 SFX R 0 ында [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ]
 SFX R 0 ында у
+
+# Posessive
+SFX Q Y 4
+SFX Q 0 нікі [аоуұыэәеёиөүіюя] 20
+SFX Q 0 нікі [аоуұыэәеёиөүіюя][жзйлу] 20
+SFX Q 0 тікі [аоуұыэәеёиөүіюя][бвгғдкқһпстфхцчшщ] 20
+SFX Q 0 дікі [аоуұыэәеёиөүіюя][мнңр] 20
