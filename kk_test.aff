@@ -3,22 +3,22 @@ SET UTF-8
 TRY әіңғүұқөһоаитенрсвйлпкьыяудмзшбчгщюжцёхфэъАВСМКГПТЕИЛФНДОЭРЗЮЯБХЖШЦУЧЬЫЪЩЙЁӘІҢҒҮҰҚӨҺ
 
 AF 3
-AF ABbCcDdEeFfGHIJKLmNOPRQ # 1 - Usual noun: plural, posessives, cases
-AF GHIJKLmQ # 2 - Plural forms and posessives of noun plus cases
+AF ABbCcDdEeFfGHIJKLmNOPRQTUVWY # 1 - Usual noun: plural, posessives, cases
+AF GHIJKLmQTUVWY # 2 - Plural forms and posessives of noun plus cases
 AF GIJKLM # 3 - Plural forms and posessives of noun plus cases for 1st sing
 
-AM 20
+AM 26
 AM +pl. # 1
-AM +1st sing. # 2
-AM +pl. +1st sing. # 3
-AM +1st pl. # 4
-AM +pl. +1st pl. # 5
-AM +2nd sing. # 6
-AM +pl. +2nd sing. # 7
-AM +2nd pl. # 8
-AM +pl. +2nd pl. # 9
-AM +3rd # 10
-AM +pl. + 3rd # 11
+AM +1st sing. poss. # 2
+AM +pl. +1st sing. poss. # 3
+AM +1st pl. poss./++1st pl. pers. # 4
+AM +pl. +1st pl. poss./++1st pl. pers. # 5
+AM +2nd sing. poss. # 6
+AM +pl. +2nd sing. poss. # 7
+AM +2nd pl. poss. # 8
+AM +pl. +2nd pl. poss. # 9
+AM +3rd poss. # 10
+AM +pl. + 3rd poss. # 11
 AM +Gen. # 12
 AM +Dat. # 13
 AM +Acc. # 14
@@ -28,7 +28,12 @@ AM +Abl. # 17
 AM +Inst. # 18
 AM Merge(+1st sing.+Dat.) # 19
 AM +Possesive 2nd form # 20
-
+AM +1st sing. pers. # 21
+AM +1st plur. pers. # 22
+AM +2nd impol. sing. pers. # 23
+AM +2nd impol. plur. pers. # 24
+AM +2nd pol. sing. pers. # 25
+AM +2nd pol. plur. pers. # 26
 
 # Plural rules for nouns
 SFX A Y 8
@@ -231,9 +236,45 @@ SFX R 0 сында [аоұыэ]
 SFX R 0 ында [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ]
 SFX R 0 ында у
 
-# Posessive
+# Posessive 2nd form
 SFX Q Y 4
 SFX Q 0 нікі [аоуұыэәеёиөүіюя] 20
 SFX Q 0 нікі [аоуұыэәеёиөүіюя][жзйлу] 20
 SFX Q 0 тікі [аоуұыэәеёиөүіюя][бвгғдкқһпстфхцчшщ] 20
 SFX Q 0 дікі [аоуұыэәеёиөүіюя][мнңр] 20
+
+# Personal forms for nouns
+SFX S Y 6
+SFX S 0 бын [аоұыэ][жз] 21
+SFX S 0 бiн [әеёиөүіюя][жз] 21
+SFX S 0 мiн [әеёиөүіюя][йлмнңру] 21
+SFX S 0 мын [аоұыэ][йлмнңру] 21
+SFX S 0 пiн [әеёиөүіюя][бвгғдкқпстфхһцчшщ] 21
+SFX S 0 пын [аоұыэ][бвгғдкқпстфхһцчшщ] 21
+SFX T Y 6
+SFX T 0 быз [аоұыэ][жзнңр] 22
+SFX T 0 бiз [әеёиөүіюя][жзнңр] 22
+SFX T 0 мiз [әеёиөүіюя][йлму] 22
+SFX T 0 мыз [аоұыэ][йлму] 22
+SFX T 0 пiз [әеёиөүіюя][бвгғдкқпстфхһцчшщ] 22
+SFX T 0 пыз [аоұыэ][бвгғдкқпстфхһцчшщ] 22
+SFX U Y 4
+SFX U 0 cің [әеёиөүіюя][бвгғджзйкқлмнңһпрстфхцчшщ] 23
+SFX U 0 сің [әеёиөүіюя] 23
+SFX U 0 сың [аоуұыэ] 23
+SFX U 0 сың [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ] 23
+SFX V Y 4
+SFX V 0 cіңдер [әеёиөүіюя][бвгғджзйкқлмнңһпрстфхцчшщ] 24
+SFX V 0 сіңдер [әеёиөүіюя] 24
+SFX V 0 сыңдар [аоуұыэ] 24
+SFX V 0 сыңдар [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ] 24
+SFX W Y 4
+SFX W 0 cіз [әеёиөүіюя][бвгғджзйкқлмнңһпрстфхцчшщ] 25
+SFX W 0 сіз [әеёиөүіюя] 25
+SFX W 0 сыз [аоуұыэ] 25
+SFX W 0 сыз [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ] 25
+SFX Y Y 4
+SFX Y 0 cіздер [әеёиөүіюя][бвгғджзйкқлмнңһпрстфхцчшщ] 26
+SFX Y 0 сіздер [әеёиөүіюя] 26
+SFX Y 0 сыздар [аоуұыэ] 26
+SFX Y 0 сыздар [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ] 26
