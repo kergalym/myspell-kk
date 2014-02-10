@@ -3,7 +3,7 @@ SET UTF-8
 TRY әіңғүұқөһоаитенрсвйлпкьыяудмзшбчгщюжцёхфэъАВСМКГПТЕИЛФНДОЭРЗЮЯБХЖШЦУЧЬЫЪЩЙЁӘІҢҒҮҰҚӨҺ
 
 AF 3
-AF ABbCcDdEeFfGHIJKLmNOPRQTUVWY # 1 - Usual noun: plural, posessives, cases
+AF ABbCcDdEeFfGHIJKLmNOPRQSTUVWY # 1 - Usual noun: plural, posessives, cases
 AF GHIJKLmQTUVWY # 2 - Plural forms and posessives of noun plus cases
 AF GIJKLM # 3 - Plural forms and posessives of noun plus cases for 1st sing
 
@@ -244,18 +244,22 @@ SFX Q 0 тікі [аоуұыэәеёиөүіюя][бвгғдкқһпстфхцч
 SFX Q 0 дікі [аоуұыэәеёиөүіюя][мнңр] 20
 
 # Personal forms for nouns
-SFX S Y 6
+SFX S Y 8
 SFX S 0 бын [аоұыэ][жз] 21
 SFX S 0 бiн [әеёиөүіюя][жз] 21
 SFX S 0 мiн [әеёиөүіюя][йлмнңру] 21
 SFX S 0 мын [аоұыэ][йлмнңру] 21
+SFX S 0 мiн [әеёиөүіюя] 21
+SFX S 0 мын [аоұыэу] 21
 SFX S 0 пiн [әеёиөүіюя][бвгғдкқпстфхһцчшщ] 21
 SFX S 0 пын [аоұыэ][бвгғдкқпстфхһцчшщ] 21
-SFX T Y 6
-SFX T 0 быз [аоұыэ][жзнңр] 22
-SFX T 0 бiз [әеёиөүіюя][жзнңр] 22
-SFX T 0 мiз [әеёиөүіюя][йлму] 22
-SFX T 0 мыз [аоұыэ][йлму] 22
+SFX T Y 8
+SFX T 0 быз [аоұыэ][жзнң] 22
+SFX T 0 бiз [әеёиөүіюя][жзнң] 22
+SFX T 0 мiз [әеёиөүіюя] 22
+SFX T 0 мыз [аоұыэу] 22
+SFX T 0 мiз [әеёиөүіюя][йлмру] 22
+SFX T 0 мыз [аоұыэ][йлмру] 22
 SFX T 0 пiз [әеёиөүіюя][бвгғдкқпстфхһцчшщ] 22
 SFX T 0 пыз [аоұыэ][бвгғдкқпстфхһцчшщ] 22
 SFX U Y 4
