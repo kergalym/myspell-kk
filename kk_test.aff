@@ -6,12 +6,13 @@ FLAG long
 # N is for nouns
 # A is for adjectives
 
-AF 3
+AF 4
 AF NANBNbNCNcNDNdNENeNFNfNGNHNINJNKNLNmNNNONPNRNQNSNTNUNVNWNY # 1 - Usual noun: plural, posessives, cases
 AF NGNHNINJNKNLNmNQNTNUNVNWNY # 2 - Plural forms and posessives of noun plus cases
 AF NGNINJNKNLNMNQNTNUNVNWNY # 3 - Plural forms and posessives of noun plus cases for 1st sing
+AF AAAB # 4 - Comparative and diminutive forms for adjectives
 
-AM 31
+AM 33
 AM +pl. # NA
 AM +1st sing. poss. # NB
 AM +pl. +1st sing. poss. # Nb
@@ -43,6 +44,8 @@ AM +2nd impol. sing. pers. # NU
 AM +2nd impol. plur. pers. # NV
 AM +2nd pol. sing. pers. # NW
 AM +2nd pol. plur. pers. # NY
+AM +comp. # AA
+AM +comp./+dimin. # AB
 
 ### NOUNS ###
 
@@ -298,3 +301,20 @@ SFX NY 0 сіздер [әеёиөүіюя][бвгғджзйкқлмнңһпрс�
 SFX NY 0 сіздер [әеёиөүіюя] 31
 SFX NY 0 сыздар [аоуұыэ] 31
 SFX NY 0 сыздар [аоуұыэ][бвгғджзйкқлмнңһпрстфхцчшщ] 31
+
+### ADJECTIVES ###
+
+SFX AA N 4
+SFX AA 0 рек [әеёиөүіюя] 32
+SFX AA 0 ірек [әеёиөүіюя][бвгғджзйкқлмнңһпрстфхцчшщ] 32
+SFX AA 0 рақ [аоуұыэ] 32
+SFX AA 0 ырақ [аоуұыэ][бвғджзйкқлмнңһпрстфхцчшщ] 32
+SFX AB N 8
+SFX AB 0 дау [аоуұыэ][жзлмнң] 33
+SFX AB 0 деу [әеёиөүіюя][жзлмнң] 33
+SFX AB 0 лау [аоуұыэ] 33
+SFX AB 0 лау [аоуұыэ][йрую] 33
+SFX AB 0 леу [әеёиөүіюя] 33
+SFX AB 0 леу [әеёиөүіюя][йру] 33
+SFX AB 0 тау [аоуұыэ][бвгғдкқһпстфхцчшщ] 33
+SFX AB 0 теу [әеёиөүіюя][бвгғдкқһпстфхцчшщ] 33
