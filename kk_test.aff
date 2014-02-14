@@ -23,7 +23,7 @@ AM +Gen. # 12
 AM +Dat. # 13
 AM +Acc. # 14
 AM +Loc. # 15
-AM +Loc. +Noun # 16
+AM +Loc. +Adj. # 16
 AM +Abl. # 17
 AM +Inst. # 18
 AM Merge(+1st sing.+Dat.) # 19
